@@ -1,10 +1,155 @@
-\documentclass{resume}
+%----------------------------------------------------------------------------------------
+% packages and other configurations
+%----------------------------------------------------------------------------------------
 
+\documentclass[9pt]{developercv}
 
 \title{Curriculum vitae}
-\date{2020\\ March}
+\date{2021\\ January}
 \author{Luca Zulian}
 
+%----------------------------------------------------------------------------------------
+
 \begin{document}
+
+%----------------------------------------------------------------------------------------
+% title and contact information
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip}
+
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ Luca }}}}}
+
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ Zulian }}}}}
+
+	\vspace{6pt}
+
+	{\huge Software Craftman}
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth}
+	\vspace{-\baselineskip}
+
+	\icon{MapMarker}{12}{Milan}\\
+	\icon{Phone}{12}{+39 347 5294448}\\
+	\icon{At}{12}{\href{mailto:contact@lucazulian.it}{contact@lucazulian.it}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth}
+	\vspace{-\baselineskip}
+
+%	\icon{Globe}{12}{\href{https://github.com/lucazulian}{github.com/lucazulian}}\\
+	\icon{Github}{12}{\href{https://github.com/lucazulian}{github.com/lucazulian}}\\
+	\icon{Twitter}{12}{\href{https://twitter.com/luca_julian}{@luca\_julian}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+% introduction, skills and technologies
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth}
+	\vspace{-\baselineskip}
+
+	\lorem \lorem \lorem \lorem \lorem\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip}
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{60}
+		\baritem{PHP}{100}
+		\baritem{SASS/LESS}{70}
+		\baritem{Bootstrap}{70}
+		\baritem{Git}{40}
+		\baritem{LaTeX}{60}
+	\end{barchart}
+\end{minipage}
+
+\begin{center}
+	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+% experience
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{2017 -- 3/2018}
+		{Front-end developer}
+		{Big Corporation Name Inc.}
+		{\lorem \lorem \lorem\\ \texttt{node.js}\slashsep\texttt{Vue.js}\slashsep\texttt{Electron}}
+	\entry
+		{2015 -- 2018\\\footnotesize{part time}}
+		{Full stack developer}
+		{Famous Eshop Inc.}
+		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{JS}\slashsep\texttt{MariaDB}\slashsep\texttt{Linux}}
+	\entry
+		{2013 -- 2014\\\footnotesize{part time}}
+		{Junior PHP Developer}
+		{example.com}
+		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{Laravel}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+% education
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2013 -- 2017}
+		{Master's Degree}
+		{Another University Name}
+		{\lorem\lorem\lorem}
+	\entry
+		{2014}
+		{Postgraduate Diploma}
+		{A University Name}
+		{\lorem\lorem}
+	\entry
+		{2007 -- 2013}
+		{Bachelor's Degree}
+		{A University Name}
+		{\lorem\lorem}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+% additional information
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip}
+
+	\cvsect{Languages}
+
+	\textbf{English} - native\\
+	\textbf{German} - proficient\\
+	\textbf{Polish} - rudimentary
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip}
+
+	\cvsect{Hobbies}
+
+	I love... \lorem
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip}
+
+	\cvsect{Non profit}
+
+	I help... \lorem
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
 
 \end{document}
