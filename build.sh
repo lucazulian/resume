@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -f *.pdf
+rm -rf *.pdf *.log *.out *.aux
 
 xelatex resume.tex
