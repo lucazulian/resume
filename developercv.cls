@@ -18,8 +18,6 @@
 
 \usepackage[hidelinks]{hyperref}
 
-\newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
-
 \pagestyle{empty}
 
 \usepackage{moresize}
