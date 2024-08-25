@@ -2,4 +2,4 @@
 
 rm -rf *.pdf *.log *.out *.aux
 
-xelatex resume.tex
+/Library/TeX/texbin/pdflatex resume.tex
