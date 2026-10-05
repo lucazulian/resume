@@ -1,0 +1,400 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Luca Zulian",
+    "label": "Staff Engineer",
+    "email": "info@lucazulian.it",
+    "phone": "+39 347 529 4448",
+    "summary": "Staff Engineer with 18+ years of experience in software, focused on designing and delivering scalable, high-availability distributed systems and backend services. Deep expertise in functional programming with hands-on experience in Elixir, Rust, Python, Haskell, and more. Specialised in microservices architecture, event-driven systems (CQRS/Event Sourcing), real-time data pipelines, and cloud-native infrastructure on AWS. Experienced in integrating AI and large language models (LLMs) into production applications. Strong advocate for open-source software, CI/CD, observability, and engineering best practices including continuous delivery, defensive programming, and automated testing. Passionate about compilers, interpreters, domain-specific languages (DSLs), virtual machines, and autonomous systems.",
+    "location": {
+      "city": "Milan",
+      "countryCode": "IT"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "zulianluca",
+        "url": "https://www.linkedin.com/in/zulianluca"
+      },
+      {
+        "network": "GitHub",
+        "username": "lucazulian",
+        "url": "https://github.com/lucazulian"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Sibill",
+      "position": "Staff Engineer",
+      "startDate": "2026-09",
+      "summary": "Promoted from Senior Backend Engineer in September 2026. Setting technical direction and driving architectural decisions across teams for Sibill's core platform, raising engineering standards, mentoring engineers, and leading cross-team initiatives, including the adoption of AI and LLMs in the product.",
+      "location": "full remote",
+      "keywords": [
+        "Elixir",
+        "TypeScript",
+        "AWS",
+        "LLM",
+        "AI"
+      ],
+      "description": "FinTech"
+    },
+    {
+      "name": "Sibill",
+      "position": "Senior Backend Engineer",
+      "startDate": "2024-06",
+      "summary": "Contributed to automating financial operations for thousands of Italian SMBs, simplifying cash flow management, e-invoicing, and payment scheduling. Developed and optimised backend infrastructure in Elixir, ensuring robustness, scalability, and reliability of Sibill's core platform. Leveraged AI and integrated large language models (LLMs) directly into the product to automate workflows and deliver smarter, more intuitive user experiences.",
+      "endDate": "2026-08",
+      "location": "full remote",
+      "keywords": [
+        "Elixir",
+        "TypeScript",
+        "AWS",
+        "LLM",
+        "AI"
+      ],
+      "description": "FinTech"
+    },
+    {
+      "name": "Manning Publications Co.",
+      "position": "Technical Reviewer and Proofer",
+      "startDate": "2026-01",
+      "summary": "Responsible for proofing and correcting text and code samples provided in books, alongside my role at Sibill.",
+      "location": "remote, side engagement",
+      "highlights": [
+        "Build an MCP Server (From Scratch) by Toni Ramchandani",
+        "Agent Design Patterns (Elements, Components and Architecture) by Peter Belcak",
+        "AI Agents in 100 Lines of Code by Zezhou Huang",
+        "Algorithms Every Programmer Should Know by Aniket Wattamwar"
+      ],
+      "description": "Publishing"
+    },
+    {
+      "name": "Remote.com",
+      "position": "Senior Backend Engineer",
+      "startDate": "2024-02",
+      "summary": "Supported Remote.com's mission to simplify global employment by enabling companies to hire and manage talent across borders. Developed and enhanced backend infrastructure for the expenses product in Elixir, building scalable, reliable, and compliant systems. Streamlined employee expense management workflows for companies operating at a global scale.",
+      "endDate": "2024-05",
+      "location": "full remote, short-term engagement",
+      "keywords": [
+        "Elixir",
+        "AWS"
+      ],
+      "description": "HR Tech"
+    },
+    {
+      "name": "Forza Football",
+      "position": "Senior Software Developer",
+      "startDate": "2022-04",
+      "summary": "Developed and maintained a high-throughput real-time data ingestion system in Elixir, processing live football match updates from multiple external data providers at scale. Contributed to and maintained several open-source Elixir libraries developed by the company.",
+      "endDate": "2024-01",
+      "location": "full remote",
+      "keywords": [
+        "Elixir",
+        "AWS",
+        "Terraform"
+      ],
+      "description": "Sports Tech"
+    },
+    {
+      "name": "Casavo",
+      "position": "Software Developer",
+      "startDate": "2020-04",
+      "summary": "Built backend infrastructure and microservices from scratch in Elixir and Rust for a real estate listing platform and an internal transaction management tool. Implemented the core domain using the Commanded library following CQRS and Event Sourcing patterns. Established and evolved Test Automation, CI/CD pipelines, and Observability practices.",
+      "endDate": "2022-03",
+      "location": "Milan, hybrid remote",
+      "keywords": [
+        "Elixir",
+        "Rust",
+        "TypeScript",
+        "Python"
+      ],
+      "description": "PropTech"
+    },
+    {
+      "name": "Prima Assicurazioni S.p.A.",
+      "position": "Software Developer",
+      "startDate": "2018-06",
+      "summary": "Developed new features and maintained an insurance back-office platform across a polyglot stack including Elixir, PHP, Elm, and Haskell. Improved system reliability and code quality through active refactoring and adherence to engineering best practices.",
+      "endDate": "2020-03",
+      "location": "Milan, full time",
+      "keywords": [
+        "Elixir",
+        "PHP",
+        "Elm",
+        "Haskell"
+      ],
+      "description": "InsurTech"
+    },
+    {
+      "name": "Deus Technology",
+      "position": "Software Developer",
+      "startDate": "2016-09",
+      "summary": "Implemented new features and maintained a performance-critical financial back-office platform in Python and Java. Designed and built an intraday financial market data collection system, aggregating feeds from multiple external data providers.",
+      "endDate": "2018-05",
+      "location": "Milan, full time",
+      "keywords": [
+        "Python",
+        "Java",
+        "Bash",
+        "C"
+      ],
+      "description": "FinTech"
+    },
+    {
+      "name": "ECRM Italia",
+      "position": "Software Developer",
+      "startDate": "2016-01",
+      "summary": "Analysed, designed, and developed a digital rewards and gifting platform using Microsoft technologies (C#, .NET). Provided on-site technical consulting at ABB Automation.",
+      "endDate": "2016-08",
+      "location": "Milan, contract",
+      "keywords": [
+        "C#",
+        ".NET",
+        "JavaScript"
+      ],
+      "description": "MarTech"
+    },
+    {
+      "name": "YOOX Group",
+      "position": ".NET Developer / Consultant",
+      "startDate": "2015-04",
+      "summary": "Designed and developed RESTful APIs for the internal orders team using ASP.NET Web API, a messaging system with RabbitMQ, and MongoDB. Led the migration to a new IBM inventory and e-commerce system in Java and Scala. Served as tech lead for the lost-and-returns, payment, and fraud detection teams.",
+      "endDate": "2016-01",
+      "location": "Milan/Bologna, full time",
+      "keywords": [
+        "C#",
+        ".NET",
+        "Java",
+        "Scala",
+        "JavaScript"
+      ],
+      "description": "Fashion E-commerce"
+    },
+    {
+      "name": "Dev4Side",
+      "position": "Software Developer / Architect",
+      "startDate": "2012-03",
+      "summary": "Developed web applications using ASP.NET and various JavaScript frameworks. Built cross-platform mobile applications for iOS, Android, and Windows Phone using Xamarin and native languages (Objective-C, Java, C#). Designed and developed a web-based application using Node.js and Meteor.js. Speaker at industry events and meetups.",
+      "endDate": "2015-03",
+      "location": "Milan, full time",
+      "keywords": [
+        "C#",
+        ".NET",
+        "Xamarin",
+        "Node.js",
+        "JavaScript"
+      ],
+      "description": "Software Consultancy"
+    },
+    {
+      "name": "Sia-Net S.r.l.",
+      "position": "Junior Software Developer",
+      "startDate": "2011-05",
+      "summary": "Designed and developed websites and web applications in C# using ASP.NET (WebForms and MVC), deployed on both Windows and Linux (Mono) environments.",
+      "endDate": "2012-02",
+      "location": "Padova, full time",
+      "keywords": [
+        "C#",
+        ".NET",
+        "JavaScript",
+        "Mono"
+      ],
+      "description": "Web Agency"
+    },
+    {
+      "name": "Ergon Informatica",
+      "position": "Junior Software Developer",
+      "startDate": "2008-11",
+      "summary": "Analysed business requirements and developed customised ERP software applications covering sales, production, purchasing, planning, inventory management, and management control. Built small web and mobile applications, managed virtual infrastructure (VMware), and provided Help Desk and technical support.",
+      "endDate": "2011-04",
+      "location": "Treviso, full time",
+      "keywords": [
+        "VB6",
+        "VB.NET",
+        ".NET",
+        "C"
+      ],
+      "description": "IT Consultancy"
+    },
+    {
+      "name": "Digipack S.r.l.",
+      "position": "PLC Manager, Industrial machine division",
+      "startDate": "2004-04",
+      "summary": "Automated industrial processes and programmed anthropomorphic robots (ABB, FANUC, KUKA) for product movement and handling. Applied FANUC TP/KAREL, ABB RAPID, KUKA KRL, and Siemens PLC languages (KOP, FUP, AWL). Conducted R&D for new industrial automation solutions.",
+      "endDate": "2008-10",
+      "location": "Padova, full time",
+      "keywords": [
+        "C",
+        "VB.NET",
+        "Assembly"
+      ],
+      "description": "Industrial Automation"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Istituto Tecnico Industriale \"E. Barsanti\"",
+      "area": "Electrical and Advanced Industrial Automation",
+      "studyType": "Technical high school diploma",
+      "startDate": "1999",
+      "endDate": "2004",
+      "score": "100/100"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Decision-making for Software Development Teams Workshop (ID: 2021 07 01)",
+      "issuer": "Avanscoperta",
+      "date": "2021"
+    },
+    {
+      "name": "Applied Functional Programming Workshop (ID: 2021 06 23)",
+      "issuer": "Avanscoperta",
+      "date": "2021"
+    },
+    {
+      "name": "EventStorming Remote Modelling Workshop (ID: 2021 05 11)",
+      "issuer": "Avanscoperta",
+      "date": "2021"
+    },
+    {
+      "name": "Haskell Fundamentals",
+      "issuer": "47 Degrees",
+      "date": "2021"
+    },
+    {
+      "name": "Microservices Practical Workshop (ID: 2022 01 21)",
+      "issuer": "Avanscoperta",
+      "date": "2022"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Elixir",
+        "Rust",
+        "Python",
+        "Haskell",
+        "TypeScript",
+        "Java",
+        "C",
+        "C#",
+        "OCaml",
+        "Erlang",
+        "Scheme"
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "keywords": [
+        "Phoenix",
+        "Phoenix LiveView",
+        "Ecto",
+        "Oban",
+        "Commanded",
+        "ASP.NET",
+        "Node.js",
+        "Xamarin"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": [
+        "AWS",
+        "Terraform",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Databases & Messaging",
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "Methodologies",
+      "keywords": [
+        "Microservices",
+        "CQRS",
+        "Event Sourcing",
+        "Domain-Driven Design (DDD)",
+        "Test-Driven Development (TDD)",
+        "CI/CD",
+        "A/B Testing",
+        "Observability"
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "keywords": [
+        "LLM Integration",
+        "Model Context Protocol (MCP)",
+        "Anthropic Claude",
+        "Ollama",
+        "LangChain",
+        "OpenClaw",
+        "OpenCode",
+        "AI-powered feature development"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Tech speaking, blogging, running, meetups and user groups"
+    },
+    {
+      "name": "Open source on GitHub"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SlashFeed",
+      "description": "Designed and built a full-featured RSS/Atom feed reader from scratch, documented publicly via a build-in-public blog. Born as an experiment to test LLMs and agents in the context of a real SaaS. Features a reliable feed-fetching pipeline (Oban workers, RabbitMQ, ETag/Last-Modified conditional fetching), full-text search with PostgreSQL `pg_trgm`, AI summarisation via local LLM inference (Ollama), per-user MCP endpoints for LLM clients (Claude, Cursor, Zed), OAuth 2.0/OpenID Connect server (`boruta_auth`), WebAuthn/passkey authentication (`wax_`), newsletter inboxes, podcast support, reading statistics, and a Progressive Web App.",
+      "startDate": "2026-04",
+      "roles": [
+        "Founder & Developer"
+      ],
+      "keywords": [
+        "Elixir",
+        "Phoenix",
+        "LiveView",
+        "PostgreSQL",
+        "RabbitMQ",
+        "Oban",
+        "Ollama",
+        "MCP",
+        "OAuth 2.0",
+        "WebAuthn"
+      ],
+      "url": "https://slashfeed.app/"
+    },
+    {
+      "name": "Autonomous & Self-Driving Robots",
+      "description": "Designing and building autonomous and self-driving robots as a personal passion project. Lego Robot Champion — competed and won in international Lego robotics competitions.",
+      "startDate": "2019",
+      "keywords": [
+        "Robotics",
+        "Autonomous Systems",
+        "Embedded C"
+      ]
+    }
+  ],
+  "meta": {
+    "lastModified": "2026-10",
+    "canonical": "resume.tex"
+  }
+}

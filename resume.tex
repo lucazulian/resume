@@ -5,8 +5,16 @@
 \documentclass[9pt]{developercv}
 
 \title{Curriculum vitae}
-\date{2025\\ April}
+\date{2026\\ October}
 \author{Luca Zulian}
+
+\hypersetup{
+    pdftitle={Luca Zulian --- Curriculum Vitae},
+    pdfauthor={Luca Zulian},
+    pdfsubject={Resume of Luca Zulian, Staff Engineer (backend, Elixir, distributed systems, AI/LLM integration)},
+    pdfkeywords={Staff Engineer, Backend, Elixir, Rust, Python, Haskell, distributed systems, CQRS, Event Sourcing, AWS, LLM, MCP},
+    pdflang={en}
+}
 
 %----------------------------------------------------------------------------------------
 
@@ -19,14 +27,14 @@
 \begin{minipage}[t]{0.32\textwidth}
     \vspace{-\baselineskip}
 
-    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ Luca }}}}}
-    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ Zulian }}}}}
+    \actualtext{Luca }{\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ Luca }}}}}}
+    \actualtext{Zulian}{\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{ Zulian }}}}}}
 
     \vspace{0.3cm}
-    {\large\textbf{Senior Backend Engineer}}
+    {\large\textbf{Staff Engineer}}
     \vspace{0.2cm}
 \end{minipage}
-\begin{minipage}[t]{0.370\textwidth}
+\begin{minipage}[t]{0.30\textwidth}
     \vspace{-\baselineskip}
 
     \hfill
@@ -34,11 +42,12 @@
 \begin{minipage}[t]{0.370\textwidth}
     \vspace{-\baselineskip}
 
-    \icon{Phone}{12}{+39 347 529 4448}\\
-    \icon{MapMarker}{12}{Milan, Italy}\\
-    \icon{At}{12}{\href{mailto:info@lucazulian.it}{info@lucazulian.it}}\\
-    \icon{Linkedin}{12}{\href{https://www.linkedin.com/in/zulianluca}{linkedin.com/in/zulianluca}}\\
-    \icon{Github}{12}{\href{https://github.com/lucazulian}{github.com/lucazulian}}\\
+    \icon{Phone}{12}{Phone}{+39 347 529 4448}\\
+    \icon{MapMarker}{12}{Location}{Milan, Italy}\\
+    \icon{At}{12}{Email}{\href{mailto:info@lucazulian.it}{info@lucazulian.it}}\\
+    \icon{Linkedin}{12}{LinkedIn}{\href{https://www.linkedin.com/in/zulianluca}{linkedin.com/in/zulianluca}}\\
+    \icon{Github}{12}{GitHub}{\href{https://github.com/lucazulian}{github.com/lucazulian}}\\
+    {\footnotesize Last updated: \monthyear}
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -49,7 +58,8 @@
 
 \begin{minipage}[t]{1.0\textwidth}
     \vspace{-\baselineskip}
-    Senior Backend Engineer with 20+ years of experience designing and delivering scalable, high-availability distributed systems and backend services. Deep expertise in functional programming with hands-on experience in Elixir, Rust, Python, Haskell, and more. Specialised in microservices architecture, event-driven systems (CQRS/Event Sourcing), real-time data pipelines, and cloud-native infrastructure on AWS. Experienced in integrating AI and large language models (LLMs) into production applications. Strong advocate for open-source software, CI/CD, observability, and engineering best practices including continuous delivery, defensive programming, and automated testing. Passionate about compilers, interpreters, domain-specific languages (DSLs), virtual machines, and autonomous systems.
+    \raggedright
+    Staff Engineer with 18+ years of experience in software, focused on designing and delivering scalable, high-availability distributed systems and backend services. Deep expertise in functional programming with hands-on experience in Elixir, Rust, Python, Haskell, and more. Specialised in microservices architecture, event-driven systems (CQRS/Event Sourcing), real-time data pipelines, and cloud-native infrastructure on AWS. Experienced in integrating AI and large language models (LLMs) into production applications. Strong advocate for open-source software, CI/CD, observability, and engineering best practices including continuous delivery, defensive programming, and automated testing. Passionate about compilers, interpreters, domain-specific languages (DSLs), virtual machines, and autonomous systems.
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -60,12 +70,13 @@
 
 \begin{minipage}[t]{1.0\textwidth}
     \vspace{-\baselineskip}
+    \raggedright
     \textbf{Programming Languages:} Elixir, Rust, Python, Haskell, TypeScript, Java, C, C\#, OCaml, Erlang, Scheme\\
-    \textbf{Frameworks \& Libraries:} Phoenix, Ecto, Commanded, ASP.NET, Node.js, Xamarin\\
+    \textbf{Frameworks \& Libraries:} Phoenix, Phoenix LiveView, Ecto, Oban, Commanded, ASP.NET, Node.js, Xamarin\\
     \textbf{Cloud \& Infrastructure:} AWS, Terraform, Docker\\
     \textbf{Databases \& Messaging:} PostgreSQL, MongoDB, RabbitMQ\\
     \textbf{Methodologies:} Microservices, CQRS, Event Sourcing, Domain-Driven Design (DDD), Test-Driven Development (TDD), CI/CD, A/B Testing, Observability\\
-    \textbf{AI \& Machine Learning:} LLM Integration, Anthropic Claude, LangChain, OpenClaw, OpenCode, AI-powered feature development\\
+    \textbf{AI \& Machine Learning:} LLM Integration, Model Context Protocol (MCP), Anthropic Claude, Ollama, LangChain, OpenClaw, OpenCode, AI-powered feature development\\
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -75,15 +86,30 @@
 \cvsect{Experience}
 
 \begin{entrylist}
-    \entry{06/2024 \newline Present\\\footnotesize{full remote}}
+    \entry{09/2026 \newline Present\\\footnotesize{full remote}}
+        {Staff Engineer}
+        {Sibill \textnormal{(FinTech)}}
+        {Promoted from Senior Backend Engineer in September 2026. Setting technical direction and driving architectural decisions across teams for Sibill's core platform, raising engineering standards, mentoring engineers, and leading cross-team initiatives, including the adoption of AI and LLMs in the product.\\
+       \texttt{Elixir}\slashsep\texttt{TypeScript}\slashsep\texttt{AWS}\slashsep\texttt{LLM}\slashsep\texttt{AI}}
+
+    \entry{06/2024 \newline 08/2026\\\footnotesize{full remote}}
         {Senior Backend Engineer}
         {Sibill \textnormal{(FinTech)}}
         {Contributed to automating financial operations for thousands of Italian SMBs, simplifying cash flow management, e-invoicing, and payment scheduling. Developed and optimised backend infrastructure in Elixir, ensuring robustness, scalability, and reliability of Sibill's core platform. Leveraged AI and integrated large language models (LLMs) directly into the product to automate workflows and deliver smarter, more intuitive user experiences.\\
        \texttt{Elixir}\slashsep\texttt{TypeScript}\slashsep\texttt{AWS}\slashsep\texttt{LLM}\slashsep\texttt{AI}}
 
+    \entry{01/2026 \newline Present\\\footnotesize{remote --- side engagement}}
+        {Technical Reviewer and Proofer}
+        {Manning Publications Co. \textnormal{(Publishing)}}
+        {Responsible for proofing and correcting text and code samples provided in books, alongside my role at Sibill.\\
+       \textit{Build an MCP Server (From Scratch)} by Toni Ramchandani\\
+       \textit{Agent Design Patterns (Elements, Components and Architecture)} by Peter Belcak\\
+       \textit{AI Agents in 100 Lines of Code} by Zezhou Huang\\
+       \textit{Algorithms Every Programmer Should Know} by Aniket Wattamwar}
+
     \entry{02/2024 \newline 05/2024\\\footnotesize{full remote --- short-term engagement}}
         {Senior Backend Engineer}
-        {Remote \textnormal{(HR Tech)}}
+        {Remote.com \textnormal{(HR Tech)}}
         {Supported Remote.com's mission to simplify global employment by enabling companies to hire and manage talent across borders. Developed and enhanced backend infrastructure for the expenses product in Elixir, building scalable, reliable, and compliant systems. Streamlined employee expense management workflows for companies operating at a global scale.\\
        \texttt{Elixir}\slashsep\texttt{AWS}}
 
@@ -114,10 +140,10 @@
     \entry{01/2016 \newline 08/2016\\\footnotesize{Milan --- contract}}
         {Software Developer}
         {ECRM Italia \textnormal{(MarTech)}}
-        {Analyzed, designed, and developed a digital rewards and gifting platform using Microsoft technologies (C\#, .NET). Provided on-site technical consulting at ABB Automation.\\
+        {Analysed, designed, and developed a digital rewards and gifting platform using Microsoft technologies (C\#, .NET). Provided on-site technical consulting at ABB Automation.\\
        \texttt{C\#}\slashsep\texttt{.NET}\slashsep\texttt{JavaScript}}
 
-    \entry{04/2015 \newline 01/2016\\\footnotesize{Milan/Bologna --- full time}}
+    \entry{04/2015 \newline 01/2016\\\footnotesize{Milan / Bologna --- full time}}
         {.NET Developer / Consultant}
         {YOOX Group \textnormal{(Fashion E-commerce)}}
         {Designed and developed RESTful APIs for the internal orders team using ASP.NET Web API, a messaging system with RabbitMQ, and MongoDB. Led the migration to a new IBM inventory and e-commerce system in Java and Scala. Served as tech lead for the lost-and-returns, payment, and fraud detection teams.\\
@@ -129,23 +155,13 @@
         {Developed web applications using ASP.NET and various JavaScript frameworks. Built cross-platform mobile applications for iOS, Android, and Windows Phone using Xamarin and native languages (Objective-C, Java, C\#). Designed and developed a web-based application using Node.js and Meteor.js. Speaker at industry events and meetups.\\
        \texttt{C\#}\slashsep\texttt{.NET}\slashsep\texttt{Xamarin}\slashsep\texttt{Node.js}\slashsep\texttt{JavaScript}}
 
-    \entry{05/2011 \newline 02/2012\\\footnotesize{Padova --- full time}}
-        {Junior Software Developer}
-        {Sia-Net S.r.l. \textnormal{(Web Agency)}}
-        {Designed and developed websites and web applications in C\# using ASP.NET (WebForms and MVC), deployed on both Windows and Linux (Mono) environments.\\
-     \texttt{C\#}\slashsep\texttt{.NET}\slashsep\texttt{JavaScript}\slashsep\texttt{Mono}}
-
-     \entry{11/2008 \newline 04/2011\\\footnotesize{Treviso --- full time}}
-        {Junior Software Developer}
-        {Ergon Informatica \textnormal{(IT Consultancy)}}
-        {Analyzed business requirements and developed customized ERP software applications covering sales, production, purchasing, planning, inventory management, and management control. Built small web and mobile applications, managed virtual infrastructure (VMware), and provided Help Desk and technical support.\\
-       \texttt{VB6}\slashsep\texttt{VB.NET}\slashsep\texttt{.NET}\slashsep\texttt{C}}
-
-    \entry{04/2004 \newline 10/2008\\\footnotesize{Padova --- full time}}
-        {PLC Manager --- Industrial machine division}
-        {Digipack S.r.l. \textnormal{(Industrial Automation)}}
-        {Automated industrial processes and programmed anthropomorphic robots (ABB, FANUC, KUKA) for product movement and handling. Applied FANUC TP/KAREL, ABB RAPID, KUKA KRL, and Siemens PLC languages (KOP, FUP, AWL). Conducted R\&D for new industrial automation solutions.\\
-       \texttt{C}\slashsep\texttt{VB.NET}\slashsep\texttt{Assembly}}
+    \entry{04/2004 \newline 02/2012\\\footnotesize{Padova / Treviso --- full time}}
+        {Earlier career}
+        {Sia-Net, Ergon Informatica, Digipack}
+        {\textbf{05/2011 --- 02/2012, Junior Software Developer, Sia-Net S.r.l.} (Web Agency): websites and web applications in C\# with ASP.NET (WebForms and MVC) on Windows and Linux (Mono).\\
+       \textbf{11/2008 --- 04/2011, Junior Software Developer, Ergon Informatica} (IT Consultancy): analysed business requirements and developed customised ERP software (sales, production, purchasing, planning, inventory, management control); built small web and mobile applications, managed VMware infrastructure, and provided Help Desk support.\\
+       \textbf{04/2004 --- 10/2008, PLC Manager (industrial machine division), Digipack S.r.l.} (Industrial Automation): automated industrial processes and programmed robots (ABB, FANUC, KUKA) and Siemens PLCs (KOP, FUP, AWL); conducted R\&D for new automation solutions.\\
+       \texttt{C\#}\slashsep\texttt{.NET}\slashsep\texttt{VB6}\slashsep\texttt{VB.NET}\slashsep\texttt{C}\slashsep\texttt{Assembly}}
 
 \end{entrylist}
 
@@ -157,8 +173,8 @@
 
 \begin{entrylist}
     \entry{1999 \newline 2004\\\footnotesize{Treviso}}
-        {Electrical and Advanced Industrial Automation --- 100/100}
-        {Istituto Tecnico Industriale "E.Barsanti"}
+        {Technical high school diploma: Electrical and Advanced Industrial Automation --- 100/100}
+        {Istituto Tecnico Industriale ``E.\ Barsanti''}
         {}
 \end{entrylist}
 
@@ -170,35 +186,26 @@
 
 \begin{entrylist}
 
-    \entry{2021\\\footnotesize{Online}}
-        {Decision-making for Software Development Teams Workshop}
-        {Avanscoperta}
-        {ID\@: 2021 07 01}
-    \entry{2021\\\footnotesize{Online}}
-        {Applied Functional Programming Workshop}
-        {Avanscoperta}
-        {ID\@: 2021 06 23}
-    \entry{2021\\\footnotesize{Online}}
-        {EventStorming Remote Modelling Workshop}
-        {Avanscoperta}
-        {ID\@: 2021 05 11}
-    \entry{2021\\\footnotesize{Online}}
-        {Haskell Fundamentals}
-        {47 Degrees}
-        {}
-    \entry{2022\\\footnotesize{Online}}
-        {Microservices Practical Workshop}
-        {Avanscoperta}
-        {ID\@: 2022 01 21}
+    \entry{2021 \newline 2022\\\footnotesize{Online}}
+        {Workshops}
+        {Avanscoperta, 47 Degrees}
+        {\textbf{Avanscoperta:} Decision-making for Software Development Teams (ID\@: 2021 07 01); Applied Functional Programming (ID\@: 2021 06 23); EventStorming Remote Modelling (ID\@: 2021 05 11); Microservices Practical Workshop (ID\@: 2022 01 21).\\
+       \textbf{47 Degrees:} Haskell Fundamentals (2021).}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-% other activities
+% personal projects and other activities
 %----------------------------------------------------------------------------------------
 
-\cvsect{Other Activities}
+\cvsect{Personal Projects \& Activities}
 
 \begin{entrylist}
+    \entry{04/2026 \newline Present\\\footnotesize{Open Source}}
+        {Founder \& Developer}
+        {\href{https://slashfeed.app/}{SlashFeed} \textnormal{(SaaS / Dev Tool --- slashfeed.app)}}
+        {Designed and built a full-featured RSS/Atom feed reader from scratch, documented publicly via a build-in-public blog. Born as an experiment to test LLMs and agents in the context of a real SaaS. Features a reliable feed-fetching pipeline (Oban workers, RabbitMQ, ETag/Last-Modified conditional fetching), full-text search with PostgreSQL \texttt{pg\_trgm}, AI summarisation via local LLM inference (Ollama), per-user MCP endpoints for LLM clients (Claude, Cursor, Zed), OAuth~2.0/OpenID Connect server (\texttt{boruta\_auth}), WebAuthn/passkey authentication (\texttt{wax\_}), newsletter inboxes, podcast support, reading statistics, and a Progressive Web App.\\
+       \texttt{Elixir}\slashsep\texttt{Phoenix}\slashsep\texttt{LiveView}\slashsep\texttt{PostgreSQL}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Oban}\slashsep\texttt{Ollama}\slashsep\texttt{MCP}\slashsep\texttt{OAuth 2.0}\slashsep\texttt{WebAuthn}}
+
     \entry{2019 \newline Present\\\footnotesize{Worldwide}}
         {Autonomous \& Self-Driving Robots}
         {Personal Project}
@@ -207,24 +214,10 @@
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-% personal projects
-%----------------------------------------------------------------------------------------
-
-\cvsect{Personal Projects}
-
-\begin{entrylist}
-    \entry{04/2026 \newline Present\\\footnotesize{Open Source}}
-        {Founder \& Developer}
-        {\href{https://slashfeed.app/}{SlashFeed} \textnormal{(SaaS / Dev Tool)}}
-        {Designed and built a full-featured RSS/Atom feed reader from scratch, documented publicly via a build-in-public blog. Features a reliable feed-fetching pipeline (Oban workers, RabbitMQ, ETag/Last-Modified conditional fetching), full-text search with PostgreSQL \texttt{pg\_trgm}, AI summarisation via local LLM inference (Ollama), per-user MCP endpoints for LLM clients (Claude, Cursor, Zed), OAuth~2.0/OpenID Connect server (\texttt{boruta\_auth}), WebAuthn/passkey authentication (\texttt{wax\_}), newsletter inboxes, podcast support, reading statistics, and a Progressive Web App.\\
-       \texttt{Elixir}\slashsep\texttt{Phoenix}\slashsep\texttt{LiveView}\slashsep\texttt{PostgreSQL}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Oban}\slashsep\texttt{Ollama}\slashsep\texttt{MCP}\slashsep\texttt{OAuth 2.0}\slashsep\texttt{WebAuthn}}
-\end{entrylist}
-
-%----------------------------------------------------------------------------------------
 % additional information
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.3\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
     \vspace{-\baselineskip}
 
     \cvsect{Languages}
@@ -233,25 +226,24 @@
     \textbf{English} --- proficient\\
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.3\textwidth}
+\begin{minipage}[t]{0.42\textwidth}
     \vspace{-\baselineskip}
 
     \cvsect{Hobbies}
 
+    \raggedright
     Tech speaking, blogging, running, and participating in various meetups and user groups.
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.3\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
     \vspace{-\baselineskip}
 
     \cvsect{Open Source}
 
+    \raggedright
     Actively contributing to open-source projects on GitHub.
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
 
 \end{document}
-```
-
-Now let me rebuild the PDF:

@@ -18,6 +18,22 @@
 
 \usepackage[hidelinks]{hyperref}
 
+% Text extraction (ATS, LLMs, copy/paste): map glyphs to Unicode and
+% keep words intact (no hyphenation, no stretched inter-word glue)
+\input{glyphtounicode}
+\pdfgentounicode=1
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\tolerance=9999
+\emergencystretch=3em
+
+% Replace the text extracted from #2 with #1 (ASCII only, no parentheses)
+\newcommand{\actualtext}[2]{%
+	\pdfliteral direct{/Span <</ActualText (#1)>> BDC}%
+	#2%
+	\pdfliteral direct{EMC}%
+}
+
 \pagestyle{empty}
 
 \usepackage{moresize}
@@ -30,10 +46,10 @@
 
 \geometry{
 	paper=a4paper,
-	top=1.75cm,
-	bottom=1.75cm,
-	left=2cm,
-	right=2cm,
+	top=1.2cm,
+	bottom=1.2cm,
+	left=1.8cm,
+	right=1.8cm,
 	headheight=0.75cm,
 	footskip=1cm,
 	headsep=0.5cm,
@@ -51,12 +67,16 @@
 
 \renewcommand*\familydefault{\sfdefault}
 
+% slightly tighter leading to keep the CV on two pages
+\linespread{0.95}
+
 \usepackage{fontawesome}
 
-\newcommand{\icon}[3]{
-	\vcenteredhbox{\colorbox{black}{\makebox(#2, #2){\textcolor{white}{\large\csname fa#1\endcsname}}}}
+% \icon{FontAwesome name}{size}{text label for extraction}{content}
+\newcommand{\icon}[4]{%
+	\vcenteredhbox{\actualtext{#3: }{\colorbox{black}{\makebox(#2, #2){\textcolor{white}{\large\csname fa#1\endcsname}}}}}
 	\hspace{0.2cm}
-	\vcenteredhbox{\textcolor{black}{#3}}
+	\vcenteredhbox{\textcolor{black}{#4}}
 }
 
 %----------------------------------------------------------------------------------------
@@ -135,7 +155,7 @@
 %----------------------------------------------------------------------------------------
 
 \newcommand{\cvsect}[1]{
-	\vspace{\baselineskip}
+	\vspace{0.7\baselineskip}
 	\colorbox{black}{\textcolor{white}{\MakeUppercase{\textbf{#1}}}}\\
 }
 
@@ -155,15 +175,30 @@
 	\end{longtable}
 }
 
-\newcommand{\entry}[4]{
-	\parbox[t]{0.175\textwidth}{
-		#1
-	}
-	&\parbox[t]{0.825\textwidth}{
-		\textbf{#2}
+% \entry{dates / place}{title}{organisation}{description (may be empty)}
+\newcommand{\entry}[4]{%
+	\def\entrydesc{#4}%
+	\parbox[t]{0.175\textwidth}{%
+		\raggedright
+		#1%
+	}%
+	&\parbox[t]{0.825\textwidth}{%
+		\raggedright
+		\textbf{#2}%
 		\hfill
-		{\footnotesize \textbf{\textcolor{black}{#3}}}\\
-		#4
-	}\\\\}
+		{\footnotesize \textbf{\textcolor{black}{#3}}}%
+		\ifx\entrydesc\@empty\else\\#4\fi
+		\par\vspace{\entrygap}%
+	}\\}
+
+% build month and year, British style (e.g. "October 2026")
+\newcommand{\monthyear}{%
+	\ifcase\month\or January\or February\or March\or April\or May\or June\or
+	July\or August\or September\or October\or November\or December\fi
+	\ \the\year}
+
+% vertical space below each entry
+\newlength{\entrygap}
+\setlength{\entrygap}{0.5em}
 
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
